@@ -5,12 +5,13 @@ class PoemsController < ApplicationController
   # GET /poems.json
   def index
     @poems = Poem.all
-    render json: @poems
+    #render json: @poems
   end
 
   # GET /poems/1
   # GET /poems/1.json
   def show
+    #render json: @poem
   end
 
   # GET /poems/new
